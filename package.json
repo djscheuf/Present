@@ -1,8 +1,8 @@
 {
-  "name": "reveal.js",
-  "version": "3.6.0",
-  "description": "The HTML Presentation Framework",
-  "homepage": "http://revealjs.com",
+  "name": "present",
+  "version": "1.0.0",
+  "description": "Djscheuf Presentations on Reveal.Js",
+  "homepage": "http://daniel.scheufler.io",
   "subdomain": "revealjs",
   "main": "js/reveal.js",
   "scripts": {
@@ -11,13 +11,13 @@
     "build": "grunt"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "http://hakim.se"
+    "name": "Daniel Scheufler",
+    "email": "daniel@scheufler.io",
+    "web": "http://daniel.scheufler.io"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git://github.com/djscheuf/present.git"
   },
   "engines": {
     "node": ">=4.0.0"
