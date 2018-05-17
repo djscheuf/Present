@@ -14,12 +14,15 @@
   <!-- Theme used for syntax highlighting of code -->
   <link rel="stylesheet" href="../lib/css/zenburn.css">
 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+
   <!-- Printing and PDF exports -->
   <script>
     var link = document.createElement('link');
     link.rel = 'stylesheet';
     link.type = 'text/css';
-    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    link.href = window.location.search.match(/print-pdf/gi) ? '../css/print/pdf.css' : '../css/print/paper.css';
     document.getElementsByTagName('head')[0].appendChild(link);
   </script>
 </head>
@@ -70,20 +73,35 @@
             <ul>
               <li>Daniel Scheufler</li>
               <li>Senior Consultant, Improving</li>
-              <li>2nd Degree Blackbelt</li>
+              <li>recently started gardening</li>
               <li>
-                <i>'Man-Machine Translator'</i>
-              </li>
-              <li>[Speaker Rate QR?]</li>
-              <li>
-                <a href="daniel.scheufler.io">daniel.scheufler.io</a>
-              </li>
-              <li>
-                <a href="mailto: daniel@scheufler.io">daniel@scheufler.io</a>
+                <i>'To see with eyes unclouded...'</i>
               </li>
             </ul>
           </div>
         </div>
+      </section>
+
+      <section id="experiment">
+          <section data-markdown>
+              <textarea data-template>
+                ## But first, an experiment!
+                * Let's try something, might improve this meeting :)
+                * What is it?
+                  * __Hand Signals!__
+              </textarea>
+          </section>
+          <section >
+            <h2>3 Signals</h2>
+            <div class="Column">
+                <p>Good Point!</p>  
+                <i class="far fa-thumbs-up icon"></i>
+                <p>I have a Question</p>
+                <i class="far fa-hand-point-up icon"></i>
+                <p>Please Clarify</p>
+                <i class="far fa-hand-lizard icon"></i>
+            </div>
+          </section>
       </section>
 
       <section id="intro">
@@ -103,15 +121,16 @@
 					</textarea>
         </section>
         <section data-markdown id="clarify-expectations">
-          <textarea data-template>
-						## Your most powerful tool!
-						If you take only 1 thing from this talk: __Clarify Expectations__
-					</textarea>
-        </section>
+            <textarea data-template>
+                ## Your most powerful tool!
+                * _ __Clarify Expectations__ _
+                 * If you only take 1 thing home, let it be this!
+            </textarea>
+          </section>
         <section data-markdown id="apply-agile">
           <textarea data-template>
 						## So how do we improve?
-						Why not use agile?
+						* Why not use agile?
 					</textarea>
         </section>
       </section>
@@ -142,9 +161,11 @@
         <section id="need-a-meeting" data-markdown>
           <textarea data-template>
 							## Does this _need_ a meeting?
-							* Can I solve this problem another way?
-							* Who do I need?
-							* Consider their priorities, and the hourly cost of this meeting.
+							* _Can I solve this problem another way?_
+              * Who do I need?
+              * Consider:
+                * Attendee Priorities
+                * Hourly cost of this meeting?
 						</textarea>
         </section>
         <section id="Pose-the-question" data-markdown>
@@ -154,21 +175,22 @@
         </section>
       </section>
 
-
       <section id="before">
         <section id="before-overview" data-markdown>
           <textarea data-template>
 						## Before for your meeting
-						![alt text](http://i0.kym-cdn.com/photos/images/newsfeed/000/831/109/73b.gif "Be Prepared! - Scar Meme")
+						![alt text](../img/meme/be_prepared.gif "Be Prepared! - Scar Meme")
 					</textarea>
         </section>
         <section id="agenda" data-markdown>
           <textarea data-template>
 						## Clarify Expectations
-						* Organizer -> Sculpt an agenda
-							* It's like sizing tasks
-						* Attendee -> Confirm with the Organizer
-						* Goal: Define what makes this meeting successful!
+            * Organizer:
+              * Start with why!
+              * Explain what your attendees will gain
+            * Attendee:
+              * If you don't know why you're invited: ask!
+						* __Goal: Define what makes this meeting successful!__
 					</textarea>
         </section>
         <section id="adjust-to-needs" data-markdown>
@@ -187,25 +209,26 @@
           <textarea data-template>
 							## During the meeting
 							* Start with goals
-								* Like the sprint plan
+								* _Like the sprint plan_
 							* Take notes
 							* Confirm you understanding
-								* Similar to testing the code
+								* _Similar to testing the code_
 							* Review your goals at the end
-								* Like a quick retro 
+								* _Like a quick retro _
 						</textarea>
         </section>
         <section id="start-wtih-goals" data-markdown>
           <textarea data-template>
 								## Start with Goals
-								* Ask a question: 
-									* _'What do you want out of this meeting?'_
-								* Organizer:
+								* Start with __why__!
+                * Organizer:
+                  * Make a statement
+                    * _'This meeting will be a success if...'_
 									* Helps you facilitate the meeting
-									* Gets attendees invested
-								* Attendee:
+                * Attendee:
+                  * if Organizer hasn't stated...
+                  * Don't be afraid to ask!
 									* Gently ask 'what will make this meeting a success?'
-									* Shows you are invested
 							</textarea>
         </section>
         <section id="take-notes" data-markdown>
@@ -245,7 +268,7 @@
 						## After the Meeting
 						* __Communicate__: 
 							* Synopsis/Summary
-							* Who, What, and When
+							* Decisions
 						* Follow-up
 							* a personal touch
 					</textarea>
@@ -256,8 +279,8 @@
 						* Synopis/Summary
 							* share with all interested parties
 							* provides context for decisions
-						* Desicions: 
-							* What are we doing
+						* Decisions: 
+							* What are we doing?
 							* Who's in-charge?
 							* When will we hear me?
 					</textarea>
@@ -288,16 +311,30 @@
         <textarea data-template>
 					## Resources
 					* [UxPod - Designing a Better Meeting](http://uxpod.com/designing-better-meetings-an-interview-with-kevin-m-hoffman/)
-					* Blogposts
+					* Blog posts:
 						* [Better Tools, or Better Skills](https://danieljscheufler.wordpress.com/2017/01/03/better-tools-or-better-skills/)
-						* [Mutli-channel communication](https://danieljscheufler.wordpress.com/2016/10/13/enable-multi-channel-communication-in-your-next-meeting/)
+            * [Multi-channel communication](https://danieljscheufler.wordpress.com/2016/10/13/enable-multi-channel-communication-in-your-next-meeting/)
+          * [Hand-signals](https://gds.blog.gov.uk/2016/10/07/platform-as-a-service-team-takes-even-handed-approach-to-meetings/)
 				</textarea>
       </section>
 
-      <section id="q-and-a" data-markdown>
-        <textarea data-template>
-					## Q &amp; A
-				</textarea>
+      <section id="q-and-a" >
+          <h2>Q &amp; A</h2>
+          <div class="content">
+            <div class="column">
+              [SpeakerRate QR]
+            </div>
+            <div class="column">
+              <ul>
+                <li>
+                  <a href="daniel.scheufler.io">daniel.scheufler.io</a>
+                </li>
+                <li>
+                  <a href="mailto: daniel@scheufler.io">daniel@scheufler.io</a>
+                </li>
+              </ul>
+            </div>
+          </div>
       </section>
     </div>
   </div>
@@ -310,6 +347,7 @@
     // - https://github.com/hakimel/reveal.js#configuration
     // - https://github.com/hakimel/reveal.js#dependencies
     Reveal.initialize({
+      history: true,
       dependencies: [
         { src: '../plugin/markdown/marked.js' },
         { src: '../plugin/markdown/markdown.js' },
