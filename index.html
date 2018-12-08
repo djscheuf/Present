@@ -1,97 +1,112 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Presentation Index</title>
 
-	<title>Presentation Index</title>
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/black.css" />
 
-	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/black.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css" />
 
-	<!-- Theme used for syntax highlighting of code -->
-	<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+  </head>
 
-	<!-- Printing and PDF exports -->
-	<script>
-		var link = document.createElement('link');
-		link.rel = 'stylesheet';
-		link.type = 'text/css';
-		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
-		document.getElementsByTagName('head')[0].appendChild(link);
-	</script>
-</head>
-
-<body>
-	<div class="reveal">
-		<div class="slides">
-			<section data-markdown id="talks">
-				<textarea data-template>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown id="talks">
+          <textarea data-template>
 						## My Talks
 						_By Daniel Scheufler_<br/>
 						Contact: [Daniel@Scheufler.io](mailto:daniel@scheufler.io)<br/>
 						Blog: [Daniel.Scheufler.io](daniel.scheufler.io)<br/>
 						Loop: [Loop-de-loop](/_loop.html)<br/>
-						</textarea>
-			</section>
-			<section id="talks">
-				<section data-markdown id="whiteboard">
-					<textarea data-template>
+						</textarea
+          >
+        </section>
+        <section id="talks">
+          <section data-markdown id="whiteboard">
+            <textarea data-template>
 						## Whiteboarding
 						* [Demystifying the Whiteboard Interview](talks/whiteboard/demystify-whiteboard.html)
 							* [NHDNUG - Towards a Better Whiteboarding Interview](talks/whiteboard/whiteboard-nhdnug.html)
 							* [TechFriday - Whiteboarding Communication](talks/whiteboard/whiteboard-tech-friday.html)
-						</textarea>
-				</section>
-				<section data-markdown id="meeting">
-					<textarea data-template>
+						</textarea
+            >
+          </section>
+          <section data-markdown id="meeting">
+            <textarea data-template>
 						## Meetings
 						* [Designing and Running Effective Meetings](talks/meeting/effective-meeting.tf.html)
-						</textarea>
-				</section>
-				<section data-markdown id="Misc">
-					<textarea data-template>
+						</textarea
+            >
+          </section>
+          <section data-markdown id="Misc">
+            <textarea data-template>
 						## Miscellanous
 						* [Micro-Team Experiment](talks/micro-teams.html)
 						* [IU COMM 112: Effective Communication on the Whiteboard](talks/whiteboard/effective-comm.html)
-						</textarea>
-				</section>
-			</section>
-			<section data-markdown id="wip">
-				<textarea data-template>
+						</textarea
+            >
+          </section>
+        </section>
+        <section data-markdown id="wip">
+          <textarea data-template>
 					## WIP
+					* [What is a Software Engineer](talks/software-engineer.html)
 					* React/Redux Testing with Jest
-					* Auto-loop slides?
-				</textarea>
-			</section>
-			<section data-markdown id="ideas">
-				<textarea data-template>
+				</textarea
+          >
+        </section>
+        <section data-markdown id="ideas">
+          <textarea data-template>
 					## Ideas
 					* Effective git
 					* React/Redux Program Design
 					* Hexo as a Blog?
-				</textarea>
-			</section>
-		</div>
-	</div>
+				</textarea
+          >
+        </section>
+      </div>
+    </div>
 
-	<script src="lib/js/head.min.js"></script>
-	<script src="js/reveal.js"></script>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
 
-	<script>
-		// More info about config & dependencies:
-		// - https://github.com/hakimel/reveal.js#configuration
-		// - https://github.com/hakimel/reveal.js#dependencies
-		Reveal.initialize({
-			dependencies: [
-				{ src: 'plugin/markdown/marked.js' },
-				{ src: 'plugin/markdown/markdown.js' },
-				{ src: 'plugin/notes/notes.js', async: true },
-				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
-			]
-		});
-	</script>
-</body>
-
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        dependencies: [
+          { src: "plugin/markdown/marked.js" },
+          { src: "plugin/markdown/markdown.js" },
+          { src: "plugin/notes/notes.js", async: true },
+          {
+            src: "plugin/highlight/highlight.js",
+            async: true,
+            callback: function() {
+              hljs.initHighlightingOnLoad();
+            }
+          }
+        ]
+      });
+    </script>
+  </body>
 </html>
