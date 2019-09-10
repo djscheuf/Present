@@ -9,11 +9,11 @@
 
     <title>Pre-Talk Loop</title>
 
-    <link rel="stylesheet" href="css/reveal.css" />
-    <link rel="stylesheet" href="css/theme/beige.css" />
+    <link rel="stylesheet" href="../../css/reveal.css" />
+    <link rel="stylesheet" href="../../css/theme/beige.css" />
 
     <!-- Theme used for syntax highlighting of code -->
-    <link rel="stylesheet" href="lib/css/zenburn.css" />
+    <link rel="stylesheet" href="../../lib/css/zenburn.css" />
 
     <!-- Printing and PDF exports -->
     <script>
@@ -21,8 +21,8 @@
       link.rel = "stylesheet";
       link.type = "text/css";
       link.href = window.location.search.match(/print-pdf/gi)
-        ? "css/print/pdf.css"
-        : "css/print/paper.css";
+        ? "../../css/print/pdf.css"
+        : "../../css/print/paper.css";
       document.getElementsByTagName("head")[0].appendChild(link);
     </script>
   </head>
@@ -38,26 +38,32 @@
         <section data-markdown id="speaker-interests">
             <textarea data-template>
                 ## Care to develop a talk with us?
-                * table for interests of claudio and I 
+                | Claudio        | Daniel           | 
+                |:-------------:|:-------------:|
+                | ![alt text](../../img/public-speak/claudio_contact.png "claudio.lassala@improving.com")     | ![alt text](../../img/public-speak/daniel_contact.png "daniel.scheufler@improving.com") | 
+            </textarea> 
             </textarea>
         </section>
         <section data-markdown id="speaker-contact">
             <textarea data-template>
                 ## Keep in touch
-                * QRs for Claudio and I
+                | Claudio        | Daniel           | 
+                |:-------------:|:-------------:|
+                | Testing     | Communication | 
+                | Community-Growth     | Culture | 
             </textarea>
         </section>
         <section data-markdown id="feedback">
             <textarea data-template>
                 ## We value your feedback!
-                ![alt text](../../img/public_speak/feedback_qr.png "goo.gl/aSther89")
+                ![alt text](../../img/public-speak/public_speak_feedback.png "https://forms.gle/EooBLXXEgMrP68WRA")
             </textarea>
         </section>
       </div>
     </div>
 
-    <script src="lib/js/head.min.js"></script>
-    <script src="js/reveal.js"></script>
+    <script src="../../lib/js/head.min.js"></script>
+    <script src="../../js/reveal.js"></script>
 
     <script>
       // More info about config & dependencies:
@@ -65,11 +71,11 @@
       // - https://github.com/hakimel/reveal.js#dependencies
       Reveal.initialize({
         dependencies: [
-          { src: "plugin/markdown/marked.js" },
-          { src: "plugin/markdown/markdown.js" },
-          { src: "plugin/notes/notes.js", async: true },
+          { src: "../../plugin/markdown/marked.js" },
+          { src: "../../plugin/markdown/markdown.js" },
+          { src: "../../plugin/notes/notes.js", async: true },
           {
-            src: "plugin/highlight/highlight.js",
+            src: "../../plugin/highlight/highlight.js",
             async: true,
             callback: function() {
               hljs.initHighlightingOnLoad();
